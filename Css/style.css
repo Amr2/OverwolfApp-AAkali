@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'lato','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+body{
+    background-image: url("../img/background.svg");
+    background-repeat:repeat-y ;
+    background-size: 100%;
+}
+body > img{
+    width: 302px;
+    height: 50px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero > h1 {
+    font-size: 10em;
+    color:#fffdfd;
+}
+.hero > h1:hover{
+    background: -webkit-linear-gradient(4deg, rgba(255,216,54,1) 0%, rgba(240,211,81,1) 32%, rgba(249,142,7,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero > p {
+    max-width: 75%;
+    font-size: 1.7em;
+    color:#d5d5d5;
+    text-align: center;
+}
+.hero > p > b{
+    background: -webkit-linear-gradient(4deg, rgba(255,216,54,1) 0%, rgba(240,211,81,1) 32%, rgba(249,142,7,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
