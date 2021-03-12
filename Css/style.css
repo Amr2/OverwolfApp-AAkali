@@ -5,14 +5,14 @@
 body{
     background-image: url("../img/background.svg");
     background-repeat:repeat-y ;
-    background-size: 100%;
+    background-size: 100vw;
 }
 body > img{
-    width: 302px;
-    height: 50px;
+    width: 50vw;
+    height: 2.5vw;
     position: absolute;
-    top: 2%;
-    left: 2%;
+    top: 3%;
+    left: -16%;
 }
 .hero{
     display: flex;
@@ -21,7 +21,7 @@ body > img{
     flex-direction: column;
 }
 .hero > h1 {
-    font-size: 10em;
+    font-size: 10vw;
     color:#fffdfd;
 }
 .hero > h1:hover{
@@ -40,3 +40,17 @@ body > img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .hero {
+      width: 80%;
+      padding: 0;
+  }
+}
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .hero {
+      width: 100%;
+    }
+  }
