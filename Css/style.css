@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'lato','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color:#d5d5d5;
 }
 body{
     background-image: url("../img/background.svg");
