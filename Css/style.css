@@ -36,7 +36,7 @@ body > img{
     color:#d5d5d5;
     text-align: center;
 }
-.hero > p > b{
+b{
     background: -webkit-linear-gradient(4deg, rgba(255,216,54,1) 0%, rgba(240,211,81,1) 32%, rgba(249,142,7,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
